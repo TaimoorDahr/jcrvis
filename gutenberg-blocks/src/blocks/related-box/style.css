@@ -1,0 +1,35 @@
+.related-box {
+  box-shadow: 0 0 3px -1px #6b6b6b;
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.related-box__img {
+  align-items: center;
+  background-color: #e8eaed;
+  display: flex;
+  padding: 4px 13px;
+}
+.related-box__info {
+  align-self: center;
+  margin-left: 10px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+.related-box__info strong {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.related-box__img img {
+  background-color: var(--white);
+  border-radius: 5px;
+  max-height: 40px;
+}
+.related-box__img-container {
+  background-color: var(--white);
+  border-radius: 50%;
+  display: grid;
+  padding: 10px 15px;
+  place-content: center;
+}

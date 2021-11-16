@@ -1,0 +1,106 @@
+.at-a-glance {
+  margin-bottom: 30px;
+}
+.at-a-glance__header {
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.at-a-glance__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 15px;
+}
+.at-a-glance__header p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.at-a-glance__product {
+  box-shadow: 0 0 3px -1px #6b6b6b;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 15px 0;
+  position: relative;
+  flex: 1;
+}
+.at-a-glance__pros {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5px !important;
+  margin-top: 0;
+}
+.at-a-glance__product__ribbon {
+  color: var(--white);
+  height: 23px;
+  left: 0;
+  padding: 2px 10px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 10px;
+  background-color: var(--theme-color);
+  font-size: 14px;
+}
+.at-a-glance__product__seo-title,
+.at-a-glance__product__title {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+.at-a-glance__product__link {
+  background: var(--primary);
+  color: var(--white) !important;
+  display: block;
+  font-size: 17px;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding: 6px;
+  text-align: center;
+}
+.at-a-glance__product__pros li {
+  font-size: 15px;
+  list-style: none;
+  margin-bottom: 10px !important;
+  position: relative;
+  --theme-color: var(--green);
+}
+.at-a-glance__product__pros li:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: var(--theme-color);
+  background-position: center;
+  position: absolute;
+  left: -30px;
+  top: 4px;
+  border-radius: 3px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAASUlEQVQoz2NgGFLgP+P/xv8KhJTM+P//fz5hJfU0UfJf5P/e/3oETPmv8P/+/9cgZXgtgirTJ+AWsLKfBJwLVVZPOIwFBkVUAwDNDUs1xXW9QwAAAABJRU5ErkJggg==);
+}
+.at-a-glance__product__ribbon:after {
+  border-right: 20px solid transparent;
+  border-top: 23px solid var(--theme-color);
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+.at-a-glance__product__img {
+  margin: 0 auto 10px;
+  max-width: 190px !important;
+}
+.at-a-glance__product__pros {
+  flex: 1;
+}
+@media (max-width: 767px) {
+  .at-a-glance-product {
+    width: 100%;
+  }
+  .at-a-glance__footer {
+    flex-direction: column;
+  }
+  .at-a-glance__product + .at-a-glance__product {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+import "./blocks/add-attribs";
+import "./blocks/pros-n-cons";
+import "./blocks/faq";
+import "./blocks/ribbon";
+import "./blocks/at-a-glance";
+import "./blocks/product-table";
+import "./blocks/table-of-contents";
+import "./blocks/related-box";
+import "./blocks/product-award";

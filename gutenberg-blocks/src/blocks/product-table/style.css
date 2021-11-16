@@ -1,0 +1,53 @@
+:is(.auto-table, .tablepress) thead {
+  background-color: var(--primary);
+  color: var(--white);
+}
+figure.wp-block-table td {
+  padding: 15px 10px;
+  border-bottom: 1px solid #d0d0d0 !important;
+}
+:is(.auto-table, .tablepress) th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+.table__product-image {
+  position: relative;
+}
+.table__product-button {
+  white-space: nowrap;
+}
+.table__product__ribbon {
+  color: var(--white);
+  height: 17px;
+  line-height: 13px;
+  left: 0;
+  padding: 2px 8px;
+  position: absolute;
+  text-transform: uppercase;
+  top: -10px;
+  background-color: var(--theme-color);
+  font-size: 10px;
+}
+.table__product__ribbon::after {
+  content: "";
+  border-right: 15px solid transparent;
+  border-top: 17px solid var(--theme-color);
+  position: absolute;
+  right: -15px;
+  top: 0;
+}
+.table__product-image img {
+  width: 120px;
+}
+@media (max-width: 767px) {
+  :is(.auto-table, .tablepress) tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .auto-table thead {
+    display: none;
+  }
+}

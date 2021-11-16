@@ -1,0 +1,32 @@
+.product-title::before,
+.product-image::before,
+.product-link::before,
+.product-award::before,
+.product-specs::before {
+  font-size: 14px;
+  font-weight: 300;
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+  color: var(--green);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wp-block-table.product-specs {
+  overflow: visible;
+}
+.product-title::before {
+  content: "Product Title:";
+}
+.product-image::before {
+  content: "Product Image:";
+}
+.product-link::before {
+  content: "Product Link:";
+}
+.product-award::before {
+  content: "Product Award:";
+}
+.product-specs::before {
+  content: "Product Specs:";
+}

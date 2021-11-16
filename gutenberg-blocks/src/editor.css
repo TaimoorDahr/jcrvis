@@ -1,0 +1,25 @@
+@import "./blocks/pros-n-cons/editor.css";
+@import "./blocks/faq/editor.css";
+@import "./blocks/ribbon/editor.css";
+@import "./blocks/at-a-glance/editor.css";
+@import "./blocks/add-attribs/editor.css";
+@import "./blocks/product-table/editor.css";
+@import "./blocks/table-of-contents/editor.css";
+@import "./blocks/related-box/editor.css";
+@import "./blocks/product-award/editor.css";
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary: #2871de;
+  --dark: #32373c;
+  --indigo-500: #3f51b5;
+  --blue-grey-500: #34515e;
+  --grey-400: #bdbdbd;
+  --grey-500: #9e9e9e;
+  --grey-600: #757575;
+  --grey-900: #212121;
+  --green: #43a047;
+  --red: #ef5350;
+  --yellow: #f4b400;
+}

@@ -1,0 +1,9 @@
+.block-editor-block-icon.has-colors svg.icon-best-pick {
+  fill: var(--primary);
+}
+.block-editor-block-icon.has-colors svg.icon-staff-pick {
+  fill: var(--yellow);
+}
+.block-editor-block-icon.has-colors svg.icon-budget-pick {
+  fill: var(--green);
+}

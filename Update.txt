@@ -1,0 +1,9 @@
+1) Fixed youtube video alignment not working
+2) Redesigned Whole Sitemap Template
+3) Fixed Search not working in 404 page
+4) Added Canonical tags to all pages
+5) Fixed Keywords meta tag showing in homepage
+6) Set product image max width to 300px
+7) Some Minor changes to Tables
+8) Added Cookies Consent Popup and also its option to enable/disable and change its text in Customizer > Site Settings 
+9) Added Option to enable sidebar to pages in Customizer > Site Settings

@@ -1,0 +1,56 @@
+.pros,
+.cons {
+  border-bottom: 3px solid var(--theme-color);
+}
+.pros {
+  --theme-color: var(--green);
+}
+.cons {
+  --theme-color: var(--red);
+}
+.pnc .wp-block-column {
+  box-shadow: 0 0 5px -3px var(--black);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.pnc h4 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  font-weight: 900;
+  position: relative;
+}
+.pnc h4::after {
+  content: "";
+  width: 40px;
+  border-bottom: 3px solid var(--theme-color);
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+.pros li::before {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAASUlEQVQoz2NgGFLgP+P/xv8KhJTM+P//fz5hJfU0UfJf5P/e/3oETPmv8P/+/9cgZXgtgirTJ+AWsLKfBJwLVVZPOIwFBkVUAwDNDUs1xXW9QwAAAABJRU5ErkJggg==);
+}
+.cons li::before {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAAQUlEQVQoz2NgGBjw352gyH/3////96GI9P3/j6msD1kZKg+rMpxKEJJ4lcCV4VdClCIirCPC4UQEAbGBSTha6AUAtaFjqTIryXwAAAAASUVORK5CYII=);
+}
+.pnc li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: var(--theme-color);
+  background-position: center;
+  position: absolute;
+  left: -30px;
+  top: 4px;
+  border-radius: 3px;
+}
+.pnc .wp-block-column li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.wp-block-columns.pnc {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}

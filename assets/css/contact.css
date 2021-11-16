@@ -1,0 +1,73 @@
+@import "./page.css";
+
+.error {
+  padding: 5px 9px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+  width: 550px;
+  text-align: center;
+}
+.thanks {
+  padding: 5px 9px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 3px;
+  width: 550px;
+  text-align: center;
+}
+.form-control {
+  background-color: transparent;
+  background-image: linear-gradient(var(--primary), var(--primary)), linear-gradient(#d2d2d2, #d2d2d2);
+  background-position: bottom, center calc(100% - 1px);
+  background-repeat: no-repeat;
+  background-size: 0 2px, 100% 1px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: var(--black);
+  display: block;
+  float: none;
+  font-size: 14px;
+  font-weight: 400;
+  height: 36px;
+  line-height: 1.42857;
+  margin-bottom: 7px;
+  outline: 0;
+  padding: 7px 0;
+  transition: background 0s ease-out;
+  transition-duration: 0.3s;
+  width: 100%;
+}
+textarea.form-control {
+  height: auto;
+  resize: none;
+}
+.contactform .form-control:focus {
+  background-size: 100% 2px, 100% 1px;
+}
+.contactform .field {
+  display: block;
+  margin-bottom: 40px;
+  max-width: 100%;
+  width: 550px;
+}
+.contactform .field:last-child {
+  margin-bottom: 0;
+}
+.contactform .field button {
+  background-color: var(--primary);
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--white);
+}
+.label {
+  color: var(--black);
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.contactform {
+  margin-top: 30px;
+}
